@@ -1,5 +1,8 @@
+import { fileURLToPath } from 'node:url'
 import React from 'react'
 import { ContadorConHook } from './Components/ContadorConHook'
+import { Login } from './Components/Login'
+import {Usuarios} from './Components/Usuarios'
 //import { Contador } from './Components/Contador'
 //import { Funciones } from './typescript/Funciones'
 //import { ObjetosLiterales } from './typescript/ObjetosLiterales'
@@ -15,7 +18,9 @@ const App = ()=>{
       {/* <ObjetosLiterales/> */}
       {/* <Funciones/> */}
        {/* <Contador/> */}
-       <ContadorConHook/>
+       {/* <ContadorConHook/> */}
+       {/* <Login/> */}
+       <Usuarios/>
     </div>
   )
 }
